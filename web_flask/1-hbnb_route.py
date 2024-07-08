@@ -24,5 +24,5 @@ def hbnb():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port='5000')
     app.url_map.strict_slashes = False
